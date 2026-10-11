@@ -45,7 +45,7 @@ fdot_model.py       Main stochastic optimization model
 run_all.py          Baseline scenario experiments
 run_cand.py         Candidate parking site analysis
 run_review.py       Sensitivity analysis
-make_validation.py  Comparison with FDOT data
+make_validation.py Model validation
 figures.py          Research figures
 build_data.py       Prepares model input data
 fig_corridor.png    I-95 corridor analysis
@@ -85,7 +85,6 @@ range, costs) are in the dictionary `P` at the top of `fdot_model.py`.
 - The number of unauthorized stops depends on how far beyond their limit drivers are assumed to drive to reach a
   facility (30 minutes in the base case).
 - Cost coefficients are illustrative; results are compared in hours and stops, not dollars.
-- Northbound I-95 only; facilities beyond District 4 are not modeled.
 
 ## Contact
 
