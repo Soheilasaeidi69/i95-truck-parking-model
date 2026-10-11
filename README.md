@@ -41,7 +41,7 @@ These findings represent simulated outcomes for the I-95 corridor case study und
 ## Repository layout
 
 ```
-parking_model.py       Main stochastic optimization model
+fdot_model.py       Main stochastic optimization model
 run_all.py          Baseline scenario experiments
 run_cand.py         Candidate parking site analysis
 run_review.py       Sensitivity analysis
@@ -67,7 +67,7 @@ python figures.py
 ```
 
 ```python
-from parking_model import make_case, solve, report
+from fdot_model import make_case, solve, report
 
 d = make_case(N=100, seed=11)                       # 2024, 100 trucks needing parking
 print(report(d, solve(d, 'status_quo')))            # today's walk-in system
@@ -75,7 +75,7 @@ print(report(d, solve(d, 'reservation')))           # reservation system
 ```
 
 The solver is HiGHS through PuLP (`solver='cbc'` also works). Main settings (speed, search-time curve, congestion
-range, costs) are in the dictionary `P` at the top of `parking_model.py`.
+range, costs) are in the dictionary `P` at the top of `fdot_model.py`.
 
 ## Limits
 
