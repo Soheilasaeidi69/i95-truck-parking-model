@@ -41,7 +41,7 @@ These findings represent simulated outcomes for the I-95 corridor case study und
 ## Repository layout
 
 ```
-fdot_model.py       Main stochastic optimization model
+parking_model.py       Main stochastic optimization model
 run_all.py          Baseline scenario experiments
 run_cand.py         Candidate parking site analysis
 run_review.py       Sensitivity analysis
