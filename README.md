@@ -14,15 +14,8 @@ reservation at which facility and how many temporary spaces to open. After occup
 outcome: reservation honored, reallocated to another facility, walk-in parking, legal continuation to its
 destination, or an unauthorized stop where its hours run out.
 
-The model is the revised version of the TRB paper model (TRBAM-27-03288), extended after a meeting with FDOT:
 
-| FDOT comment | In the model |
-|---|---|
-| Drivers search about one hour for parking, within their hours of service | Search time for trucks without a confirmed space (15 min to 1 h, by occupancy), counted against legal driving time |
-| I-95 is congested; the same trip can take 1 or 2 hours | Travel time by segment, time of day and day |
-| Drivers park on ramps and shoulders when nothing is available | Unauthorized stop is an explicit, counted outcome |
-| There is a small buffer in the HOS rules | The adverse driving exception is never planned for (strict HOS) |
-| Use real facility capacities | FDOT inventory capacities and observed hourly occupancy (28 day types) |
+The model integrates truck parking availability, uncertain parking occupancy, traffic congestion, and drivers' Hours-of-Service requirements into a two-stage stochastic optimization framework. It evaluates parking reservation strategies, alternative parking allocations, and potential infrastructure improvements to support safer and more efficient freight transportation along Florida's I-95 corridor.
 
 ## Main results
 
