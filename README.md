@@ -9,13 +9,11 @@ Author: Soheila Saeidi, Florida Atlantic University
 
 ## What the model does
 
-It is a two-stage stochastic mixed-integer program. Before occupancy is known, it decides which trucks get a
-reservation at which facility and how many temporary spaces to open. After occupancy is known, each truck gets one
-outcome: reservation honored, reallocated to another facility, walk-in parking, legal continuation to its
-destination, or an unauthorized stop where its hours run out.
+This research develops a two-stage stochastic mixed-integer optimization model to improve truck parking management along Florida's I-95 corridor.
 
+The model considers uncertain parking occupancy, traffic congestion, facility capacity, and drivers' Hours-of-Service requirements. It evaluates parking reservations, allocation decisions, and potential infrastructure improvements.
 
-The model integrates truck parking availability, uncertain parking occupancy, traffic congestion, and drivers' Hours-of-Service requirements into a two-stage stochastic optimization framework. It evaluates parking reservation strategies, alternative parking allocations, and potential infrastructure improvements to support safer and more efficient freight transportation along Florida's I-95 corridor.
+The objective is to provide a data-driven decision-support framework for safer freight operations and truck parking infrastructure planning.
 
 ## Main results
 
@@ -28,13 +26,15 @@ Per night, for 100 trucks that need parking (146 in 2045). Trucks are generated,
 | Unauthorized stops, 2024 | 6.9 | 6.8 |
 | Unauthorized stops, 2045 | 9.2 | 6.1 |
 
+These findings represent simulated outcomes for the I-95 corridor case study under the specified assumptions and should not be interpreted as measured improvements from field implementation.
+
 - Reservations cut violation hours by about half and remove search time.
 - Reservations do not remove unauthorized stops: about 70% of them fall in a 55-mile stretch of I-95, mostly in
   Palm Beach County, with one 13-space facility.
 - In 2045, one new site at I-95 mile 47 lowers unauthorized stops from 6.1 to 1.1 per night, and three gap sites
   (miles 33, 47, 69) remove nearly all of them.
 - Planning on average conditions costs 7.8% more than the stochastic plan in 2045; the difference is negligible in 2024.
-- 
+ 
 ## Corridor Profile
 ![I-95 Corridor Analysis](fig_corridor.png)
 
