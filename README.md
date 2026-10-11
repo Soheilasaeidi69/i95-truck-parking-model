@@ -1,6 +1,6 @@
 #  I-95 Truck Parking Reservation Model
 
-An academic research model developed at Florida Atlantic University, with a case study of northbound I-95 in South Florida (142.6 miles, 21 truck parking facilities). The input data are not included in this repository.
+An academic research model developed at Florida Atlantic University, with a case study ofnorthbound I-95 in FDOT District 4 and adjacent corridor areas (142.6 miles, 21 truck parking facilities). The input data are not included in this repository.
 
 Author: Soheila Saeidi, Florida Atlantic University
 
@@ -45,7 +45,7 @@ fdot_model.py       Main stochastic optimization model
 run_all.py          Baseline scenario experiments
 run_cand.py         Candidate parking site analysis
 run_review.py       Sensitivity analysis
-make_validation.py  Model validation
+make_validation.py  Comparison of modeled and observed parking patterns
 figures.py          Research figures
 build_data.py       Prepares model input data
 fig_corridor.png    I-95 corridor analysis
