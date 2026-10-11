@@ -20,7 +20,7 @@ Per night, for 100 trucks that need parking (146 in 2045). Trucks are generated,
 |---|---|---|
 | HOS violation hours, 2024 | 17.3 | 9.0 |
 | Search hours, 2024 | 23.3 | 0 |
-| Unauthorized stops, 2024 | 6.9 | 6.8 |
+| Unauthorized stops, 2024 | 6.8 | 6.8 |
 | Unauthorized stops, 2045 | 9.2 | 6.1 |
 
 These findings represent simulated outcomes for the I-95 corridor case study under the specified assumptions and should not be interpreted as measured improvements from field implementation.
