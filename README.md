@@ -1,6 +1,6 @@
 #  I-95 Truck Parking Reservation Model
 
-An academic research model developed at Florida Atlantic University, with a case study ofnorthbound I-95 in FDOT District 4 and adjacent corridor areas (142.6 miles, 21 truck parking facilities). The input data are not included in this repository.
+An academic research model developed at Florida Atlantic University, with a case study of northbound I-95 in FDOT District 4 and adjacent corridor areas (142.6 miles, 21 truck parking facilities). The input data are not included in this repository.
 
 Author: Soheila Saeidi, Florida Atlantic University
 
