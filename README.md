@@ -45,7 +45,7 @@ fdot_model.py       Main stochastic optimization model
 run_all.py          Baseline scenario experiments
 run_cand.py         Candidate parking site analysis
 run_review.py       Sensitivity analysis
-make_validation.py Model validation
+make_validation.py  Model validation
 figures.py          Research figures
 build_data.py       Prepares model input data
 fig_corridor.png    I-95 corridor analysis
