@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.tmp
+# data and results are not published
+model/*.json
+*.xlsx
