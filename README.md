@@ -51,15 +51,15 @@ Per night, for 100 trucks that need parking (146 in 2045). Trucks are generated,
 ## Repository layout
 
 ```
-model/
-  fdot_model.py        the model: make_case() builds an instance, solve() runs it, report() summarizes it
-  run_all.py           base experiments (2024, 2045, congestion, search time)
-  run_cand.py          candidate sites and budget plans (2045)
-  run_review.py        value of the stochastic solution, cost sensitivity, lexicographic model
-  make_validation.py   comparison with FDOT informal-parking data
-  figures.py           the two figures above
-  build_data.py        how the model input file is prepared from the FDOT study files
-  figs/                result figures
+fdot_model.py       Main stochastic optimization model
+run_all.py          Baseline scenario experiments
+run_cand.py         Candidate parking site analysis
+run_review.py       Sensitivity analysis
+make_validation.py  Comparison with FDOT data
+figures.py          Research figures
+build_data.py       Prepares model input data
+fig_corridor.png    I-95 corridor analysis
+fig_results.png     Optimization results
 ```
 
 ## Running the model
@@ -72,7 +72,6 @@ With the input file in place:
 
 ```
 pip install -r requirements.txt
-cd model
 python run_all.py
 python run_cand.py
 python run_review.py
