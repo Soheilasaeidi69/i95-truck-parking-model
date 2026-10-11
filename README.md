@@ -64,7 +64,7 @@ fig_results.png     Optimization results
 
 ## Running the model
 
-The model needs the input file `model/corridor.json`, which is prepared by `build_data.py` from the FDOT District 4
+The model needs the input file `corridor.json`, which is prepared by `build_data.py` from the FDOT District 4
 truck parking study files (facility inventory, hourly occupancy, truck AADT, informal parking, 2045 demand). These data
 are not public and are not included here.
 
