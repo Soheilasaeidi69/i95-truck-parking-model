@@ -1,9 +1,6 @@
-# I-95 Truck Parking Reservation Model (FDOT District 4)
+#  I-95 Truck Parking Reservation Model
 
-An hours-of-service (HOS) aware truck parking reservation model, applied to FDOT District 4 data for northbound I-95
-from the Miami-Dade/Broward line to the Brevard line (142.6 miles, 21 truck parking facilities).
-
-This repository contains the code and summary results. The input data belong to FDOT and are not included.
+An academic research model developed at Florida Atlantic University, with a case study of northbound I-95 in South Florida (142.6 miles, 21 truck parking facilities). The input data are not included in this repository.
 
 Author: Soheila Saeidi, Florida Atlantic University
 
@@ -57,9 +54,7 @@ fig_results.png     Optimization results
 
 ## Running the model
 
-The model needs the input file `corridor.json`, which is prepared by `build_data.py` from the FDOT District 4
-truck parking study files (facility inventory, hourly occupancy, truck AADT, informal parking, 2045 demand). These data
-are not public and are not included here.
+The model needs the input file `corridor.json`, prepared by `build_data.py`. The input data are not included.
 
 With the input file in place:
 
