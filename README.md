@@ -41,10 +41,12 @@ Per night, for 100 trucks that need parking (146 in 2045). Trucks are generated,
 - In 2045, one new site at I-95 mile 47 lowers unauthorized stops from 6.1 to 1.1 per night, and three gap sites
   (miles 33, 47, 69) remove nearly all of them.
 - Planning on average conditions costs 7.8% more than the stochastic plan in 2045; the difference is negligible in 2024.
+- 
+## Corridor Profile
+![I-95 Corridor Analysis](fig_corridor.png)
 
-![Corridor profile](model/figs/fig_corridor.png)
-
-![Results](model/figs/fig_results.png)
+## Optimization Results
+![I-95 Optimization Results](fig_results.png)
 
 ## Repository layout
 
