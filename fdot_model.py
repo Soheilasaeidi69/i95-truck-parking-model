@@ -1,6 +1,5 @@
-"""HOS-aware truck parking reservation model for the I-95 northbound corridor (FDOT District 4), revised after the FDOT meeting.
 
-Changes relative to the paper model
+Model features
   F1 search time: a truck without a confirmed space searches; search time grows with facility occupancy at arrival
      (FHWA: about one hour on average) and counts against the remaining legal driving time
   F2 congestion: travel times are scenario- and time-of-day dependent, by I-95 segment (AADT-based propensity)
@@ -184,7 +183,7 @@ def solve(d, mode='reservation', solver='highs', tl=1800, msg=False, scen=None, 
     mk = lambda: pulp.HiGHS(msg=msg, timeLimit=tl) if solver == 'highs' else pulp.PULP_CBC_CMD(msg=msg, timeLimit=tl)
     lexvals = []
     if lex:
-        # lexicographic priority (reviewer R1.4): each level is minimized and then held at its optimum
+        # lexicographic priority (# lexicographic priority: each level): each level is minimized and then held at its optimum
         levels = {'unauth': pi * L(z2.values()), 'viol': pi * L(u.values()),
                   'search': pi * L(d['srch'][i, j, s] * wv[i, j, s] for (i, j, s) in wv)}
         for lv in lex:
